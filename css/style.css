@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
 body,html {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
@@ -57,7 +58,7 @@ h5 {
 
 .main-2 .headline {
   color: #FFFFFF;
-  font-family: 'Lato', cursive;
+  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 2.4rem;
@@ -126,4 +127,30 @@ footer {
   background: #383838;
   color: #fff;
   padding-top: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    float: right;
+    margin: 25px 0px 0px 0px;
+    padding: 0px;
+
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 0px 5px;  
+}
+
+.menu ul li a{
+   color: #777;
+   transition: all 0.3s ease;
+}
+
+.menu ul li a:hover{
+   color: #9b9b9b; 
+}
+
+p{
+    text-align: center;
 }
